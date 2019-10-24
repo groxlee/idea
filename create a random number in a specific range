@@ -1,0 +1,6 @@
+first,we need to use funtion rand(),this funtion will randomly create a requested-size matrix.but the number's range is 0 to 1.
+A way to reset the range is just modify the original one.
+For example,if we need a random 3*5 matrix with the range 32 to 54.we can do it by modify 0 to 1.
+(0,1) turn to (0,22) by multiply 22.
+(0,22) turn to (32,54)by plus 32.
+done.
